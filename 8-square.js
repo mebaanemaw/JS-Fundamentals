@@ -1,4 +1,4 @@
-const arg = process.arg[2];
+const arg = process.argv[2];
 const size = parseInt(arg);
 
 if (isNaN(size) || size <= 0) {
